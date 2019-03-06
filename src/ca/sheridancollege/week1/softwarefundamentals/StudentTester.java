@@ -14,6 +14,7 @@ public class StudentTester {
     public static void main(String[] args) {
         
         Student [] stuList = new Student[5];
+        stuList[0].setName("Lizzy");
         
         stuList[0]= new Student("Stu1",121);
         stuList[1]= new Student("Stu2",122);
